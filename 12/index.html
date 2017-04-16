@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Página Simples jQuery Mobile</title> 
+	<link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
+	<script src="jquery-1.8.2.min.js"></script>
+	<script src="jquery.mobile-1.2.0.min.js"></script>
+</head> 
+
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>Trabalhando com Formulários</h1>
+	</div>
+
+	<div data-role="content">
+	
+		<label for="basic">Nome:</label>
+		<input type="text" name="name" id="basic" data-mini="true" />
+		
+		<input type="text" name="username" id="username" value="" placeholder="Nome Completo"/>
+		
+		<input type="checkbox" name="checkbox-agree" id="checkbox-agree" class="custom" />
+		<label for="checkbox-agree">Aceito os Termos</label>
+		
+		<label for="name">Senha:</label>
+		<input type="password" name="name" id="name" value=""/>
+	
+		<label for="name">Quantidade:</label>
+		<input type="number" name="name" id="name"/>
+		
+		<label for="name">Horário:</label>
+		<input type="time" name="name" id="name" />
+		
+		<label for="name">Data:</label>
+		<input type="date" name="name" id="name" />
+		
+		<label for="slider-1">Pencentual (%):</label>
+		<input type="range" name="slider-1" id="slider-1" value="60" min="0" max="100" />
+		
+		<label for="flip-1">Gênero:</label>
+		<select name="flip-1" id="flip-1" data-role="slider">
+			<option value="off">Masc</option>
+			<option value="on">Femi</option>
+		</select>
+			
+		<fieldset data-role="controlgroup">
+			<legend>Selecione o Curso:</legend>
+			<input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" checked="checked" />
+			<label for="radio-choice-1">Administração</label>
+
+			<input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2"  />
+			<label for="radio-choice-2">Direito</label>
+
+			<input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3"  />
+			<label for="radio-choice-3">Matemática</label>
+
+			<input type="radio" name="radio-choice" id="radio-choice-4" value="choice-4"  />
+			<label for="radio-choice-4">Sistemas de Informação</label>
+		</fieldset>
+		
+		<label for="select-choice-0" class="select">Formas de Pagamento:</label>
+		<select name="select-choice-0" id="select-choice-0">
+			<option value="standard">Cartão Crédito</option>
+			<option value="rush">Boleto Bancário</option>
+			<option value="express">Depósito em Conta</option>
+			<option value="overnight">Cheque</option>
+		</select>
+		
+		<a href="#" data-role="button">Enviar Cadastro</a>
+		
+	</div>
+	
+	<div data-role="footer">
+		<h4>Rodapé</h4>
+	</div>
+	
+</div>
+
+</body>
+</html>

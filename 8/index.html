@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Página Simples jQuery Mobile</title> 
+	<link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
+	<script src="jquery-1.8.2.min.js"></script>
+	<script src="jquery.mobile-1.2.0.min.js"></script>
+</head> 
+
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>Cabeçalho</h1>
+	</div>
+
+	<div data-role="content">	
+		<form>
+		<legend>Termos e Condições de uso</legend>
+		
+			<label>				
+				<input type="checkbox" name="checkbox-0 ">Eu Concordo
+			</label>
+			
+			<label>
+				<input type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" class="custom" data-mini="true">
+				<label for="checkbox-mini-0">Eu Concordo</label>
+			</label>
+			
+			<br>
+			
+			<fieldset data-role="controlgroup">
+				<legend>Vertical:</legend>
+				<input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a">
+				<label for="checkbox-v-2a">Um</label>
+				<input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b">
+				<label for="checkbox-v-2b">Dois</label>
+				<input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c">
+				<label for="checkbox-v-2c">Três</label>
+			</fieldset>
+			
+			<br>		
+			
+			<fieldset data-role="controlgroup" data-type="horizontal">
+				<legend>Horizontal:</legend>
+				<input type="checkbox" name="checkbox-h-2a" id="checkbox-h-2a">
+				<label for="checkbox-h-2a">Um</label>
+				<input type="checkbox" name="checkbox-h-2b" id="checkbox-h-2b">
+				<label for="checkbox-h-2b">Dois</label>
+				<input type="checkbox" name="checkbox-h-2c" id="checkbox-h-2c">
+				<label for="checkbox-h-2c">Três</label>
+			</fieldset>
+			
+			<br>
+			
+			 <fieldset data-role="controlgroup" data-iconpos="right">
+				<legend>Ícone a Direita: </legend>
+				<input type="checkbox" name="checkbox-h-6a" id="checkbox-h-6a">
+				<label for="checkbox-h-6a">Um</label>
+				<input type="checkbox" name="checkbox-h-6b" id="checkbox-h-6b">
+				<label for="checkbox-h-6b">Dois</label>
+				<input type="checkbox" name="checkbox-h-6c" id="checkbox-h-6c">
+				<label for="checkbox-h-6c">Três</label>
+			</fieldset>
+			
+			<br>
+			
+			<fieldset data-role="controlgroup">
+				<legend>Checkbox com Temas</legend>
+				<input type="checkbox" name="checkbox-t-2a" id="checkbox-t-2a" data-theme="a">
+				<label for="checkbox-t-2a">Um</label>
+				<input type="checkbox" name="checkbox-t-2b" id="checkbox-t-2b" data-theme="a">
+				<label for="checkbox-t-2b">Dois</label>
+				<input type="checkbox" name="checkbox-t-2c" id="checkbox-t-2c" data-theme="a">
+				<label for="checkbox-t-2c">Três</label>
+			</fieldset>
+		</form>
+	</div>
+	
+	<div data-role="footer">
+		<h4>Rodapé</h4>
+	</div>
+	
+</div>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sistema de Cadastros</title> 
+	<link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
+	<script src="jquery-1.8.2.min.js"></script>
+	<script src="jquery.mobile-1.2.0.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+<script src="jquery-1.11.3.min.js"></script>
+
+
+</head> 
+
+<body> 
+
+<div data-role="page">
+<div data-role="header">
+<h1>Sistema de Cadastros</h1>
+</div>
+
+
+<div data-role="content">	
+<div data-role="collapsible-set">
+<div data-role="collapsible" data-collapsed="false">
+<h3>Alunos</h3>
+<p>Joaquim Ferreira</p>
+<p>Alexandre de Andrade</p>
+</div>
+
+
+			
+		</div>
+		<div data-role="main" class="ui-content">
+    <a href="#pagetwo" class="ui-btn"  data-role="button"  href="#pagetwo" data-transition="flip"  >Cadastrar Pessoas</a>
+  </div>
+			
+	<div data-role="footer">
+		<h4>Sistemas de Informação</h4>
+	</div>
+	
+</div>
+
+
+
+ 
+  </div>
+ 
+
+<div data-role="page" id="pagetwo">
+<div data-role="header">
+<h1>Lista de Pessoas</h1>
+</div>
+<div data-role="content">	
+<div data-role="collapsible-set">
+<div data-role="collapsible" data-collapsed="false">
+<h3>Alunos</h3>
+<p>Joaquim Ferreira</p>
+<p>Alexandre de Andrade</p>
+</div>
+
+<label for="basic">CPF:</label>
+<input type="text" name="name" id="basic" data-mini="true" />
+
+<label for="basic">Endereço:</label>
+<input type="text" name="name" id="basic" data-mini="true" />
+
+
+<legend>Gênero:</legend>
+<input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" checked="checked" />
+<label for="radio-choice-1">Masculino</label>
+
+<input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2"  />
+<label for="radio-choice-2">Feminino</label>
+
+
+<label for="select-choice-0" class="select">Estado:</label>
+		<select name="select-choice-0" id="select-choice-0">
+			<option value="standard">Santa Catarina</option>
+			<option value="rush">Rio Janeiro</option>
+			<option value="express">São Paulo</option>
+				</select>
+				<label for="select-choice-0" class="select">Cidade:</label>
+		<select name="select-choice-0" id="select-choice-0">
+			<option value="standard">Itaiópolis</option>
+			<option value="rush">Santa Maria</option>
+			<option value="express">Rio de Janerio</option>
+			
+		</select>
+
+	 <div data-role="main" class="ui-content">
+
+<a href="#pagetwo"  data-role="button" data-mini="true" data-inline="true" data-icon="check" data-theme="b">Salvar</a>
+				<a href="#" data-role="button" data-mini="true" data-inline="true">Cancelar</a>
+</div>
+	<div data-role="footer">
+		<h4>Sistemas de Informação</h4>
+	</div>
+
+<div data-role="page" data-dialog="true" id="pagetwo">
+  <div data-role="header">
+    <h1>Mensagem</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Ola Mundo</p>
+    <a href="#pagetwo">Voltar</a>
+  </div>
+
+
+
+
+</body>
+</html>
